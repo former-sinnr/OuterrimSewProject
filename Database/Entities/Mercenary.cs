@@ -6,7 +6,7 @@ namespace Database.Entities;
 [Table("MERCENARIES")]
 public class Mercenary
 {
-    [Column("MercenaryId"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Key, Column("MercenaryId"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int MercenaryId { get; set; }
     
     [Column("Firstname"), Required, MaxLength(45)]

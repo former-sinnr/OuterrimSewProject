@@ -3,8 +3,10 @@ using Database.Entities;
 
 namespace Database.Context;
 
-public class AircraftContext:DbContext
+public class AircraftContext: DbContext
 {
+    public AircraftContext(DbContextOptions<AircraftContext> options): base(options){}
+    
     public DbSet<Aircraft> Aircrafts { get; set; }
     public DbSet<AircraftSpecification> AircraftSpecifications { get; set; }
     public DbSet<Compartment> Compartments { get; set; }

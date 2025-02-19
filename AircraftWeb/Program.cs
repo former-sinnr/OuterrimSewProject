@@ -13,9 +13,9 @@ builder.Services.AddRazorComponents()
 builder.Services.AddDbContext<AircraftContext>(options =>
 {
     options.UseSqlite(conf.GetConnectionString("Aircraft"),
-        sqlliteOptions =>
+        sqliteOptions =>
         {
-            sqlliteOptions.MigrationsAssembly(assembly.FullName);
+            sqliteOptions.MigrationsAssembly(assembly.FullName);
         });
 });
 

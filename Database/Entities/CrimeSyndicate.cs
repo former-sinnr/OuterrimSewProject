@@ -6,7 +6,7 @@ namespace Database.Entities;
 [Table("CRIME_SYNDICATES")]
 public class CrimeSyndicate
 {
-    [Column("SyndicateId"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Key, Column("SyndicateId"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int SyndicateId { get; set; }
     
     [Column("Name"), Required, MaxLength(45)]

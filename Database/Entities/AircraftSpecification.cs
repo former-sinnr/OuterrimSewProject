@@ -6,7 +6,7 @@ namespace Database.Entities;
 [Table("AIRCRAFT_SPECIFICATIONS")]
 public class AircraftSpecification
 {
-    [Column("SpecificationId"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Key, Column("SpecificationId"), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int SpecificationId { get; set; }
     
     [Column("Structure"), Required]
