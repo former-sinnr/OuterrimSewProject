@@ -22,5 +22,5 @@ public class Machinery
 }
 
 public class Weapon: Machinery {}
-public class EnerySystem: Machinery {}
+public class EnergySystem: Machinery {}
 public class EnvironmentalSystem: Machinery {}

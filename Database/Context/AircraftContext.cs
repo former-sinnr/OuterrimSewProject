@@ -9,8 +9,6 @@ public class AircraftContext:DbContext
     public DbSet<AircraftSpecification> AircraftSpecifications { get; set; }
     public DbSet<Compartment> Compartments { get; set; }
     public DbSet<Machinery> Machineries { get; set; }
-    public DbSet<Weapon> Weapons { get; set; }
-    public DbSet<EnvironmentalSystem> EnvironmentalSystems { get; set; }
     public DbSet<Mercenary> Mercenaries { get; set; }
     public DbSet<AircraftCrew> AircraftCrews { get; set; }
     public DbSet<CrimeSyndicate> CrimeSyndicates { get; set; }
@@ -23,5 +21,46 @@ public class AircraftContext:DbContext
         
         modelBuilder.Entity<MercenaryReputation>()
             .HasKey(mr => new {mr.SyndicateId, mr.MercenaryId});
+        
+        modelBuilder.Entity<Aircraft>()
+            .HasOne(a => a.Specification)
+            .WithMany()
+            .HasForeignKey(a => a.SpecificationId);
+        
+        modelBuilder.Entity<Compartment>()
+            .HasOne(c => c.Aircraft)
+            .WithMany(a => a.Compartments)
+            .HasForeignKey(c => c.AircraftId);
+        
+        modelBuilder.Entity<Machinery>()
+            .HasOne(m => m.Compartment)
+            .WithMany(c => c.Machineries)
+            .HasForeignKey(m => m.CompartmentId);
+        
+        modelBuilder.Entity<AircraftCrew>()
+            .HasOne(ac => ac.Aircraft)
+            .WithMany(a => a.Crew)
+            .HasForeignKey(ac => ac.AircraftId);
+        
+        modelBuilder.Entity<AircraftCrew>()
+            .HasOne(ac => ac.Mercenary)
+            .WithMany(m => m.Crews)
+            .HasForeignKey(ac => ac.MercenaryId);
+        
+        modelBuilder.Entity<MercenaryReputation>()
+            .HasOne(mr => mr.CrimeSyndicate)
+            .WithMany()
+            .HasForeignKey(mr => mr.SyndicateId);
+        
+        modelBuilder.Entity<MercenaryReputation>()
+            .HasOne(mr => mr.Mercenary)
+            .WithMany(m => m.Reputations)
+            .HasForeignKey(mr => mr.MercenaryId);
+        
+        modelBuilder.Entity<Machinery>()
+            .HasDiscriminator<string>("MachineryType")
+            .HasValue<Weapon>("Weapon")
+            .HasValue<EnergySystem>("EnergySystem")
+            .HasValue<EnvironmentalSystem>("EnvironmentalSystem");
     }
 }

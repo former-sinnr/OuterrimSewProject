@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftWeb", "AircraftWeb\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{980C279C-7FE1-4C7E-B2A9-2D2052EDAE31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{FEFFBEDF-E037-4249-8440-E2FD522CC08C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{980C279C-7FE1-4C7E-B2A9-2D2052EDAE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{980C279C-7FE1-4C7E-B2A9-2D2052EDAE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{980C279C-7FE1-4C7E-B2A9-2D2052EDAE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFFBEDF-E037-4249-8440-E2FD522CC08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFBEDF-E037-4249-8440-E2FD522CC08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFBEDF-E037-4249-8440-E2FD522CC08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFBEDF-E037-4249-8440-E2FD522CC08C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
