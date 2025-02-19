@@ -983,6 +983,19 @@
         "runtime": {
           "bin/placeholder/Database.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
       }
     }
   },
@@ -2390,13 +2403,19 @@
       "type": "project",
       "path": "../Database/Database.csproj",
       "msbuildProject": "../Database/Database.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Database >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2433,6 +2452,9 @@
           "projectReferences": {
             "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Database\\Database.csproj": {
               "projectPath": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Database\\Database.csproj"
+            },
+            "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Repository\\Repository.csproj"
             }
           }
         }
@@ -2441,11 +2463,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

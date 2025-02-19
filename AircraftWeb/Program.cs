@@ -1,7 +1,10 @@
 using System.Reflection;
 using AircraftWeb.Components;
 using Database.Context;
+using Database.Entities;
 using Microsoft.EntityFrameworkCore;
+using Repository.Interfaces;
+using Repository.SpecifiedRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 var assembly = Assembly.GetExecutingAssembly();
@@ -18,6 +21,8 @@ builder.Services.AddDbContext<AircraftContext>(options =>
             sqliteOptions.MigrationsAssembly(assembly.FullName);
         });
 });
+
+builder.Services.AddScoped<IRepository<Aircraft>, AircraftRepository>();
 
 var app = builder.Build();
 

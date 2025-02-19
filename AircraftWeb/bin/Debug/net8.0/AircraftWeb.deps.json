@@ -10,7 +10,8 @@
         "dependencies": {
           "Database": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.10",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "AircraftWeb.dll": {}
@@ -665,6 +666,14 @@
         "runtime": {
           "Database.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "Database": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        }
       }
     }
   },
@@ -983,6 +992,11 @@
       "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
     },
     "Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

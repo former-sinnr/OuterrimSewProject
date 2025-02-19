@@ -34,9 +34,9 @@ public class ARepository<TEntity>(AircraftContext context) : IRepository<TEntity
         await context.SaveChangesAsync();
     }
 
-    public async Task<TEntity?> ReadAsync(int id) => await context.Set<TEntity>().FindAsync(id);
-    public async Task<List<TEntity>> ReadAsync(int start, int count) => await context.Set<TEntity>().Skip(start).Take(count).ToListAsync();
-    public async Task<List<TEntity>> ReadAllAsync() => await context.Set<TEntity>().ToListAsync();
+    public virtual async Task<TEntity?> ReadAsync(int id) => await context.Set<TEntity>().FindAsync(id);
+    public virtual async Task<List<TEntity>> ReadAsync(int start, int count) => await context.Set<TEntity>().Skip(start).Take(count).ToListAsync();
+    public virtual async Task<List<TEntity>> ReadAllAsync() => await context.Set<TEntity>().ToListAsync();
     public virtual async Task<List<TEntity>> ReadAsync(Expression<Func<TEntity, bool>> filter) =>
         await context.Set<TEntity>().Where(filter).ToListAsync();
 
