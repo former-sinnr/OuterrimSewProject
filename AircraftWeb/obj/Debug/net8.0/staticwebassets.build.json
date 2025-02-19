@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IUuMYRJB7kLZa7tWjIDLW1IdumIrWw+p6HU+/dzuBSY=",
+  "Hash": "kZ9Hi7BZiXm2paq6vZddamj7cYZv2OjlzKm4slq3njw=",
   "Source": "AircraftWeb",
   "BasePath": "_content/AircraftWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AircraftWeb\\wwwroot",
       "Source": "AircraftWeb",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\",
       "BasePath": "_content/AircraftWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AircraftWeb.styles.css",
+      "Identity": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AircraftWeb.styles.css",
       "SourceId": "AircraftWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AircraftWeb",
       "RelativePath": "AircraftWeb.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AircraftWeb.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AircraftWeb.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AircraftWeb.bundle.scp.css",
+      "Identity": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AircraftWeb.bundle.scp.css",
       "SourceId": "AircraftWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AircraftWeb",
       "RelativePath": "AircraftWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AircraftWeb.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AircraftWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\app.css",
       "SourceId": "AircraftWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\",
       "BasePath": "_content/AircraftWeb",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "AircraftWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\",
       "BasePath": "_content/AircraftWeb",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "AircraftWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\",
       "BasePath": "_content/AircraftWeb",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\favicon.png",
       "SourceId": "AircraftWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\wwwroot\\",
       "BasePath": "_content/AircraftWeb",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

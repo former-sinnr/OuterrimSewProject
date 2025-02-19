@@ -2419,42 +2419,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Florian\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\AircraftWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\AircraftWeb.csproj",
       "projectName": "AircraftWeb",
-      "projectPath": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\AircraftWeb.csproj",
-      "packagesPath": "C:\\Users\\Florian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\AircraftWeb\\obj\\",
+      "projectPath": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\AircraftWeb.csproj",
+      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\AircraftWeb\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Florian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Database\\Database.csproj": {
-              "projectPath": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Database\\Database.csproj"
+            "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\Database\\Database.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\Database\\Database.csproj"
             },
-            "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Florian\\Documents\\Schule_4A\\SEW\\AircraftWebGit\\AircraftWeb\\Repository\\Repository.csproj"
+            "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\Schule\\4AHIT\\SEW\\Übungen\\Übung10\\AircraftWeb\\Repository\\Repository.csproj"
             }
           }
         }
@@ -2463,6 +2456,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2499,7 +2497,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Daniel\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

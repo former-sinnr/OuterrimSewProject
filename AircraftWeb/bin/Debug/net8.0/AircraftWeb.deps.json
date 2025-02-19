@@ -664,7 +664,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
         },
         "runtime": {
-          "Database.dll": {}
+          "Database.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Repository/1.0.0": {
@@ -672,7 +675,10 @@
           "Database": "1.0.0"
         },
         "runtime": {
-          "Repository.dll": {}
+          "Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

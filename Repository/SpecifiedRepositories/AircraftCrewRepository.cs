@@ -1,6 +1,9 @@
-﻿namespace Repository.SpecifiedRepositories;
+﻿using Database.Context;
+using Repository.Repository;
 
-public class AircraftCrewRepository
+namespace Repository.SpecifiedRepositories;
+
+public class AircraftCrewRepository(AircraftContext context): ARepository<AircraftContext>(context)
 {
-    
+    private readonly AircraftContext _context = context;
 }
